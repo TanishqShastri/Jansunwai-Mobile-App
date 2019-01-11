@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/wc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4f5a67"
+            android:elevation="10dp"
+            android:paddingStart="16dp"
+            android:text="@string/welcome_to_jansunwai"
+            android:textColor="#f2fde4"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+
+        <LinearLayout
+            android:id="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/wc"
+            android:layout_margin="30dp"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/checkview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/roundstatus"
+                android:elevation="10dp"
+                android:onClick="openlogin"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/check" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check_grievance_status"
+                    android:textAlignment="center"
+                    android:textColor="#3c3c3c"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/helplineview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/roundsother"
+                android:elevation="10dp"
+                android:orientation="vertical"
+                android:onClick="openhelpline">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/helpline" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/other_police_helplines"
+                    android:textAlignment="center"
+                    android:textColor="#3c3c3c"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/aboutview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openaboutus"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/roundabout"
+                android:elevation="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/about" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_us"
+                    android:textAlignment="center"
+                    android:textColor="#3c3c3c"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">जन सुनवाई</string>
+    <string name="welcome_to_jansunwai">जन सुन्वाई में आपका स्वागत है</string>
+    <string name="check_grievance_status">शिकायत स्थिति की जांच करें</string>
+    <string name="other_police_helplines">अन्य पुलिस हेल्पलाइन</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="madhya_pradesh_police">मध्य प्रदेश पुलिस</string>
+    <string name="desh_bhakti_jan_seva">\"देश भक्ति जन सेवा\"</string>
+    <string name="citizen_cop">नागरिक पुलिस</string>
+    <string name="mp_police_citizen_portal">एमपी पुलिस नागरिक पोर्टल</string>
+    <string name="woman_helplines">महिला हेल्पलाइन</string>
+    <string name="cm_helpline">सीएम हेल्पलाइन</string>
+    <string name="applicant_name">"आवेदक का नाम - "</string>
+    <string name="application_id">"आवेदन आईडी - "</string>
+    <string name="show_status">स्थिति दिखाएं</string>
+    <string name="applicant_aadhaar">आवेदक आधार -</string>
+    <string name="phone">फ़ोन -</string>
+    <string name="subject">विषय -</string>
+    <string name="date">तारीख -</string>
+    <string name="description">विवरण -</string>
+    <string name="chairperson_remark">अध्यक्ष टिप्पणी -</string>
+    <string name="application_status">आवेदन की स्थिति -</string>
+    <string name="officer_remark">अधिकारी टिप्पणी -</string>
+    <string name="last_updated">आखरी अपडेट -</string>
+    <string name="application_key">आवेदन कुंजी -</string>
+    <string name="madhya_pradesh_police_jansunwai_app_to_check_status_of_lodged_complaints_by_citizens">मध्य प्रदेश पुलिस जनसुवाई ऐप नागरिकों द्वारा दर्ज शिकायतों की स्थिति की जांच करने के लिए</string>
+    <string name="developed_by">द्वारा विकसित</string>
+    <string name="tanishq_shastri">तनिष्क शास्त्री</string>
+    <string name="chayan_bansal">चयन बंसल</string>
+</resources>

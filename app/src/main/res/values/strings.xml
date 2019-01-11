@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jan Sunwai</string>
+    <string name="welcome_to_jansunwai">Welcome To JANSUNWAI</string>
+    <string name="check_grievance_status">Check Grievance Status</string>
+    <string name="other_police_helplines">Other Police Helplines</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="madhya_pradesh_police">Madhya Pradesh Police</string>
+    <string name="desh_bhakti_jan_seva">\"DESH BHAKTI JAN SEVA\"</string>
+    <string name="citizen_cop">Citizen Cop</string>
+    <string name="mp_police_citizen_portal">MP Police Citizen Portal</string>
+    <string name="woman_helplines">Woman Helplines</string>
+    <string name="cm_helpline">CM Helpline</string>
+    <string name="applicant_name">Applicant Name - </string>
+    <string name="application_id">Application ID - </string>
+    <string name="show_status">Show Status</string>
+    <string name="applicant_aadhaar">Applicant Aadhaar -</string>
+    <string name="phone">Phone -</string>
+    <string name="subject">Subject -</string>
+    <string name="date">Date -</string>
+    <string name="description">Description -</string>
+    <string name="chairperson_remark">Chairperson Remark -</string>
+    <string name="application_status">Application Status -</string>
+    <string name="officer_remark">Officer Remark -</string>
+    <string name="last_updated">Last Updated -</string>
+    <string name="application_key">Application Key -</string>
+    <string name="madhya_pradesh_police_jansunwai_app_to_check_status_of_lodged_complaints_by_citizens">Madhya Pradesh Police JanSunwai App to check status of lodged complaints by citizens</string>
+    <string name="developed_by">Developed By</string>
+    <string name="tanishq_shastri">Tanishq Shastri</string>
+    <string name="https_www_linkedin_com_in_tanishqshastri" translatable="false">https://www.linkedin.com/in/tanishqshastri/</string>
+    <string name="chayan_bansal">Chayan Bansal</string>
+    <string name="https_www_linkedin_com_in_chayan_bansal" translatable="false">https://www.linkedin.com/in/chayan-bansal/</string>
+    <string name="officer_name">Officer Name -</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="status0">Application Submitted In Progress</string>
+    <string name="status1">Forwarded to officer</string>
+    <string name="status2">Application Rejected</string>
+    <string name="statusX">In Progress</string>
+
+</resources>
